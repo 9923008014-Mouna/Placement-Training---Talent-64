@@ -1,0 +1,102 @@
+Area Of Circle Java Program
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double r = sc.nextDouble();
+
+        double area = Math.PI * r * r;
+
+        System.out.printf("%.2f", area);
+    }
+}
+Area Of Triangle
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double base = sc.nextDouble();
+        double height = sc.nextDouble();
+
+        double area = 0.5 * base * height;
+
+        System.out.println(area);
+    }
+}
+Area Of Rectangle Program
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double length = sc.nextDouble();
+        double breadth = sc.nextDouble();
+
+        System.out.println(length * breadth);
+    }
+}
+Area Of Isosceles Triangle
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double equalSide = sc.nextDouble();
+        double base = sc.nextDouble();
+
+        double height = Math.sqrt(equalSide * equalSide - (base * base) / 4);
+
+        double area = 0.5 * base * height;
+
+        System.out.println(area);
+    }
+}
+Area Of Parallelogram
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double base = sc.nextDouble();
+        double height = sc.nextDouble();
+
+        System.out.println(base * height);
+    }
+}
+Area Of Rhombus
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double d1 = sc.nextDouble();
+        double d2 = sc.nextDouble();
+
+        double area = (d1 * d2) / 2;
+
+        System.out.println(area);
+    }
+}
+
+Area Of Equilateral Triangle
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double side = sc.nextDouble();
+
+        double area = (Math.sqrt(3) / 4) * side * side;
+
+        System.out.println(area);
+    }
+}
